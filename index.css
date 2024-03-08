@@ -1,0 +1,129 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.body{
+height:100vh;
+display:flex;
+flex-direction:center;
+align-items:center;
+justify-content:center;
+background-color:#f4f4f4;
+}
+.image{
+position:relative;
+width:150px;
+height:150px;
+border-radius: 50%;
+background-color :#4070f4;
+padding:3px;
+}
+.profile-img{
+height:100%;
+width:100%;
+object-fit:cover;
+border-radius:50%;
+border:3px solid #fff;
+margin-bottom:10px;
+}
+
+.profile-card{
+    max-width:370px;
+    width:100%;
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:#fff;
+    box-shadow: 0 5px 10px rgba(0, 0,0, 0.1);
+    border-radius:24px;
+    position:relative;
+}
+.profile-card::before{
+content:'';
+position:absolute;
+height:36%;
+width:100%;
+border-radius:24px 24px 0 0;
+background-color:#4070f4;
+top:0;
+left:0;
+}
+.text-data{
+display:flex;
+flex-direction:column;
+align-items:center;
+color:#333;
+}
+.name{
+    font-size:22px;
+    font-weight: 500;
+
+}
+.job{
+    font-size:15px;
+    font-weight:400;
+
+}
+.media-button{
+display:flex;
+align-items:center;
+margin-top:15px;
+
+}
+.link{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 8px;
+    height:34px;
+    width:34px;
+    border-radius:50%;
+    background-color:#4070f4;
+    color:#fff;
+    font-size:18px;
+    text-decoration: none;
+}
+.buttons{
+display:flex;
+align-items:center;
+margin-top:25px;
+}
+.button{
+    color:#fff;
+    font-size:14px;
+    font-weight:400;
+    border:none;
+background-color:#4070f4;
+padding:8px 24px;
+border-radius:24px;
+margin:0 10px;
+cursor:pointer;
+transition:all 0.3s ease;
+}
+.button:hover{
+background-color:#0e4bf1;
+}
+.analytics{
+display:flex;
+align-items:center;
+margin-top:25px;
+}
+.data{
+display:flex;
+align-items:center;
+color:#333;
+padding:0 20px;
+border-right:2px solid #e7e7e7;
+
+}
+i{
+    font-size:18px;
+    margin-right:6px;
+
+}
+data:last-child{
+    border-right:none
+}
